@@ -226,24 +226,6 @@ body.has-result .form-examples {
   color: #221d18;
 }
 
-/* ----- Postscript ----- */
-
-.postscript {
-  margin: 3rem auto 0;
-  max-width: 32rem;
-  text-align: center;
-  font-style: italic;
-  font-size: 1.05rem;
-  line-height: 1.6;
-  color: #221d18;
-}
-
-.postscript-prefix {
-  font-style: normal;
-  font-variant: small-caps;
-  letter-spacing: 0.08em;
-}
-
 /* ----- Mobile ----- */
 
 @media (max-width: 600px) {
