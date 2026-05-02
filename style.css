@@ -83,3 +83,10 @@ h1 {
   font-size: 1.125rem;
   line-height: 1.5;
 }
+
+.results-message {
+  margin: 0;
+  font-style: italic;
+  color: #888;
+  font-size: 0.95rem;
+}
