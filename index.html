@@ -4,20 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Day You Lived</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:wght@400;700&display=swap"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <main>
-      <h1>The Day You Lived</h1>
-      <p class="subtitle">Type a date. See what the world looked like.</p>
+      <section id="results">
+        <article class="cover">
+          <p class="banner">An almanac for any day</p>
+          <hr class="rule" />
+          <h1 class="cover-title">The Day You Lived</h1>
+          <hr class="rule" />
+          <p class="cover-blurb">
+            A song from that week, a film in cinemas, one headline from the
+            day, the price of a pint of milk, and one quiet, unexpected fact.
+          </p>
+        </article>
+      </section>
 
-      <form class="date-form">
-        <label for="date-input">Pick a date</label>
-        <input type="date" id="date-input" />
-        <button type="submit" id="show-button">Show me that day</button>
-      </form>
-
-      <div id="results"></div>
+      <header class="paper-form">
+        <p class="form-label">Choose a date</p>
+        <form class="date-form">
+          <input type="date" id="date-input" />
+          <button type="submit" id="show-button">Show me that day</button>
+        </form>
+        <p class="form-examples">
+          Try
+          <button type="button" class="example-date" data-date="2000-01-01">1 January 2000</button>
+          ·
+          <button type="button" class="example-date" data-date="1969-07-20">20 July 1969</button>
+          ·
+          <button type="button" class="example-date" data-date="1989-11-09">9 November 1989</button>
+        </p>
+      </header>
     </main>
 
     <script src="script.js"></script>
