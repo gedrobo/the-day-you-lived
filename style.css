@@ -64,5 +64,22 @@ h1 {
 }
 
 #results {
-  /* Intentionally empty for now — results will render here at Step 10. */
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+.result-label {
+  margin: 0 0 0.25rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #666;
+  font-weight: 600;
+}
+
+.result-value {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
