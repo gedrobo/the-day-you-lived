@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Day You Lived</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>The Day You Lived</h1>
+      <p class="subtitle">Type a date. See what the world looked like.</p>
+
+      <form class="date-form" onsubmit="return false;">
+        <label for="date-input">Pick a date</label>
+        <input type="date" id="date-input" />
+        <button type="submit" id="show-button">Show me that day</button>
+      </form>
+
+      <div id="results"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
